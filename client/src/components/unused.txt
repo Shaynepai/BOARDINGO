@@ -1,0 +1,87 @@
+<div className=" text-gray-600 body-font " key={key} >
+  <div className="container px-5 py-2 mx-1">
+    
+    <div className=" flex flex-auto col-auto" >
+      <div className=" flex-auto flex-grow xl:w-1/4 md:w-1/2 p-4">
+        <div className="bg-gray-100 p-6 rounded-lg">
+          <img className=" h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/720x400" alt="content"/>
+          <h3 className="tracking-widest text-indigo-500 text-xs font-medium title-font">{data.unit_type}</h3>
+          <h2 className="text-lg text-gray-900 font-medium title-font mb-4">{data.bh_name}</h2>
+          <p className="text-left">₱{data.bh_price} </p>
+          <p className="leading-relaxed text-base">{data.bh_details}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+ <div className=" border border-1 p-4 rounded " key={key}>
+              <div>
+                <div>
+                  img
+                </div>
+                <div>
+                  {data.bh_name}
+                </div>
+                <div>
+                  {data.bh_price}
+                </div>
+                <div>
+                  {data.bh_details}
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+
+            ////////////////////////////////////////////////
+
+
+
+
+
+
+
+ <div className=" grid grid-cols-5 p-5 gap-5 grid-rows-5 ">
+
+ 
+
+
+             <div class="group relative gap-2">
+      <div class="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
+        <img
+          src={
+            data?.photo
+              ? data?.photo[0]
+              : "https://www.slntechnologies.com/wp-content/uploads/2017/08/ef3-placeholder-image.jpg"
+          }
+          alt="Front of men&#039;s Basic Tee in black."
+          class="h-full w-full object-cover object-center lg:h-full lg:w-full"
+        />
+      </div>
+      {/* Custom */}
+      <div class="mt-4 flex justify-between min-h-10 aspect-w-1 aspect-h-1  w-full overflow-hidden   "> 
+        <div>
+          <h1 class="text-sm text-gray-700 truntruncate">
+            <a href="#">
+              <span aria-hidden="true" class="absolute inset-0  "></span>
+              {data?.bh_name}
+            </a>
+          </h1>
+          <p class="mt-5 text-sm text-gray-500 truntruncatedetail"> {data?.bh_details}</p>
+        </div>
+        <p class="text-sm font-medium text-gray-900 m-2 px-2 mb-10  ">
+          ₱{data?.bh_price}
+        </p>
+      </div>
+    </div>

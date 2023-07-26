@@ -1,0 +1,60 @@
+<div className="flex-1">
+    <div  className="my-3">
+    <h1 className="text-lg font-semibold text-center">Users</h1>
+    </div>
+
+
+    <div className="flex  rounded-full px-5 mx-5  bg-slate-100 shadow-md gap-1">
+
+      <input className="text-xs" type="text" placeholder="Search... "/>
+
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+</svg>
+    </div>
+
+<div>
+
+    <div className="border flex gap-20 mt-1 mx-10 text-xs pl-10 mb-3 shadow-md shadow-gray-200" >
+      <h1>Profile</h1>
+      <h1>Id</h1>
+      <h1>First_Name</h1>
+      <h1>Last_Name</h1>
+      <h1>Email</h1>
+      <h1>Verification</h1>
+      
+    </div>
+
+<div className="border shadow-md  duration-300 ease-in-out hover:shadow-xl grid grid-flow-col gap-20 mt-1 mx-10 text-sm">
+
+<div className=" rounded-2xl flex gap-20 mt-1 justify-start text-sm">
+
+    <img src="\src\assets\profile.png" alt="Profile" className="w-14 h-12 mx-1 p-1 rounded-full overflow-hidden object-cover"/>
+      <h1 >Id</h1>
+      <h1 className="truncate w-24">First-Name</h1>
+      <h1 className="truncate w-24">Last-Name</h1>
+      <h1 className="truncate w-24">Email</h1>
+      <h1 className="truncate w-24">Not Verified</h1>
+</div>
+
+<div className="flex justify-end">
+      <div className="flex gap-1 ">
+      <div>
+      <button className="w-10 h-full">Edit</button></div>
+      <div></div>
+      <div>
+      <button className="w-10 h-full">View</button></div>
+      <div>
+      <button className="w-10 h-full">Delete</button></div>
+      </div>
+</div>
+
+</div>
+
+
+</div>
+
+
+    </div>
+
+    
